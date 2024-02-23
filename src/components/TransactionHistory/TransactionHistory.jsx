@@ -1,15 +1,15 @@
-import clsx from "clsx";
+//import clsx from "clsx";
 import css from "./TransactionHistory.module.css";
 import TransactionHistoryItem from "./TransactionHistoryItem/TransactionHistoryItem";
 
 const TransactionHistory = ({ transactions }) => {
   return (
-    <table className={clsx(css.table)}>
-      <thead className={clsx(css.tableHead)}>
+    <table className={css.table}>
+      <thead className={css.tableHead}>
         <tr>
-          <th className={clsx(css.headTh)}>Type</th>
-          <th className={clsx(css.headTh)}>Amount</th>
-          <th className={clsx(css.headTh)}>Currency</th>
+          <th className={css.headTh}>Type</th>
+          <th className={css.headTh}>Amount</th>
+          <th className={css.headTh}>Currency</th>
         </tr>
       </thead>
       <tbody>

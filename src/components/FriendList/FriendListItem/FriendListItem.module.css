@@ -1,0 +1,29 @@
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 12px 4px;
+    width: 100%
+}
+
+.image {
+    width: 82px;
+    margin-bottom: 14px;
+}
+
+.name {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.state {
+    font-size: 18px;
+    color: red;
+}
+
+.isOnline {
+    color: green;
+}

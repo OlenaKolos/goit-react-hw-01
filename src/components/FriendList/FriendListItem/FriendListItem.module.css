@@ -9,21 +9,19 @@
     width: 100%
 }
 
-.image {
-    width: 82px;
-    margin-bottom: 14px;
-}
-
 .name {
-    font-size: 26px;
-    margin-bottom: 4px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
 }
 
-.state {
-    font-size: 18px;
-    color: red;
-}
 
-.isOnline {
+.statusonline {
+    font-size: 20px;
     color: green;
+}
+
+.statusoffline {
+    font-size: 20px;
+    color: red;
 }

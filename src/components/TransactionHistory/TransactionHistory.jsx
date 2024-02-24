@@ -1,5 +1,5 @@
 import css from "./TransactionHistory.module.css";
-import TransactionHistoryItem from "./TransactionHistoryItem/TransactionHistoryItem";
+import TransactionItem from "./TransactionItem/TransactionItem";
 
 const TransactionHistory = ({ items }) => {
   return (
@@ -13,7 +13,7 @@ const TransactionHistory = ({ items }) => {
       </thead>
       <tbody>
         {items.map((transaction) => (
-          <TransactionHistoryItem key={transaction.id} item={transaction} />
+          <TransactionItem key={transaction.id} item={transaction} />
         ))}
       </tbody>
     </table>

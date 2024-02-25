@@ -6,13 +6,13 @@ const FriendList = ({ friends }) => {
     <ul className={css.list}>
       {friends.map((item) => {
         return (
-          <div className={css.item} key={item.id}>
+          <li className={css.item} key={item.id}>
             <FriendListItem
               avatar={item.avatar}
               name={item.name}
               isOnline={item.isOnline}
             />
-          </div>
+          </li>
         );
       })}
     </ul>
